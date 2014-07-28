@@ -8,7 +8,7 @@ height:768px;
 
 #top{
 height:5px;
-background-color:FBB03B;
+background-color:#FBB03B;
 }
 
 #logo{
@@ -16,10 +16,8 @@ height:155px;
 }
 
 #eclogo{
-border-top:25px;
-border-top-color:#FFFFFF;
-border-left:100px;
-border-left-color:#FFFFFF;
+	margin-top:25px;
+	margin-left:100px;
 }
 
 #colorbot{
@@ -39,9 +37,7 @@ background-image:url(imgs/fondo_home.jpg);
 
 ul{
 list-style-type:none;
-margin:0;
 padding:0;
-margin-top:10px;
 }
 
 li{
@@ -56,12 +52,10 @@ color:#000000;
 }
 
 #textohome{
-margin-left:670px;
-margin-top:243px;
+	float:right;
 width:560px;
 height:270px;
 background-image:url(imgs/fondo_text.png);
-
 }
 
 p{
