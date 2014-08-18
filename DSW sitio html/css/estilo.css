@@ -23,16 +23,17 @@
 
 /*MEDIA ESCRITORIO*/
 
-@media (min-width: 1200px){
+@media (min-width: 1360px){
 
 #total{
 width:1360px;
-height:768px;
+height:auto;
 margin:0 auto 0 auto;
 }
 
 #top{
 height:5px;
+width:1360px;
 background-color:#FBB03B;
 }
 
@@ -48,7 +49,7 @@ height:155px;
 #colorbot{
 height:5px;
 width:auto;
-background-image:url(imgs/colores-bot.png);
+background-image:url(../imgs/colores-bot.png);
 }
 
 #menu{
@@ -57,7 +58,8 @@ height:42px;
 
 #body{
 height:520px;
-background-image:url(imgs/fondo_home.jpg);
+background-image:url(../imgs/fondo_home.jpg);
+background-repeat:no-repeat;
 }
 
 ul{
@@ -83,7 +85,7 @@ a.links{
 float:right;
 width:50%;
 height:auto;
-background-image:url(imgs/fondo_text.png);
+background-image:url(../imgs/fondo_text.png);
 background-repeat:repeat;
 }
 
@@ -119,11 +121,11 @@ margin-top:12px;
 
 
 
-/*MEDIA MOVIL*/
+/*MEDIA TABLET*/
 
-@media (max-width: 1199px){
+@media (max-width: 1359px){
 #total{
-width:1360px;
+width:100%;
 height:768px;
 margin:0 auto 0 auto;
 }
@@ -137,23 +139,28 @@ background-color:#FBB03B;
 height:155px;
 }
 
+img{
+width:auto;
+}
+
 #eclogo{
-	image-size:cover;
+padding-top:25px;
+padding-left:25px;
 }
 
 #colorbot{
 height:5px;
 width:auto;
-background-image:url(imgs/colores-bot.png);
+background-image:url(../imgs/colores-bot.png);
 }
 
 #menu{
-height:42px;
+height:auto;
 }
 
 #body{
 height:520px;
-background-image:url(imgs/fondo_home.jpg);
+background-image:url(../imgs/fondo_home.jpg);
 }
 
 ul{
@@ -162,7 +169,7 @@ padding:0;
 }
 
 li{
-display:inline;
+
 }
 
 a.links{
@@ -176,19 +183,18 @@ a.links{
 }
 
 #textohome{
-float:right;
-width:50%;
+width:100%;
 height:auto;
-background-image:url(imgs/fondo_text.png);
+background-image:url(../imgs/fondo_text.png);
 background-repeat:repeat;
 }
 
 #izq{
 float:left;
-width:50%;
+width:100%;
 height:auto;
 background-color:#000066;
-opacity:0.5;
+opacity:0;
 }
 
 p.clase1{
@@ -196,6 +202,110 @@ font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
 color:#FFFFFF;
 margin:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#pie{
+height:42px;
+}
+
+#piedepag{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#666666;
+padding:0;
+margin:0;
+margin-top:12px;
+}
+
+}
+
+
+
+/*MEDIA SMARTPHONE*/
+
+@media (max-width: 480px){
+#total{
+width:100%;
+height:768px;
+margin:0 auto 0 auto;
+}
+
+#top{
+height:5px;
+background-color:#FBB03B;
+}
+
+#logo{
+height:auto;
+}
+
+img{
+width:90%;
+}
+
+#eclogo{
+padding-top:25px;
+padding-bottom:20px;
+}
+
+#colorbot{
+height:5px;
+width:auto;
+background-image:url(../imgs/colores-bot.png);
+}
+
+#menu{
+height:auto;
+}
+
+#body{
+height:520px;
+background-image:url(../imgs/fondo_home.jpg);
+}
+
+ul{
+list-style-type:none;
+padding:0;
+}
+
+li{
+
+}
+
+a.links{
+  margin: .4em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #666666;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left:50px;
+}
+
+#textohome{
+width:100%;
+height:auto;
+background-image:url(../imgs/fondo_text.png);
+background-repeat:repeat;
+}
+
+#izq{
+float:left;
+width:100%;
+height:auto;
+background-color:#000066;
+opacity:0;
+}
+
+p.clase1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+margin:20px;
+padding-top:10px;
+padding-bottom:10px;
 }
 
 #pie{
