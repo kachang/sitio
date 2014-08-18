@@ -48,7 +48,7 @@ height:155px;
 #colorbot{
 height:5px;
 width:auto;
-background-image:url(imgs/colores-bot.png);
+background-image:url(../imgs/colores-bot.png);
 }
 
 #menu{
@@ -57,7 +57,7 @@ height:42px;
 
 #body{
 height:520px;
-background-image:url(imgs/fondo_home.jpg);
+background-image:url(../imgs/amazonia.jpg);
 }
 
 ul{
@@ -83,7 +83,7 @@ a.links{
 float:right;
 width:50%;
 height:auto;
-background-image:url(imgs/fondo_text.png);
+background-image:url(../imgs/fondo_text.png);
 background-repeat:repeat;
 }
 
@@ -144,7 +144,7 @@ height:155px;
 #colorbot{
 height:5px;
 width:auto;
-background-image:url(imgs/colores-bot.png);
+background-image:url(../imgs/colores-bot.png);
 }
 
 #menu{
@@ -153,7 +153,7 @@ height:42px;
 
 #body{
 height:520px;
-background-image:url(imgs/fondo_home.jpg);
+background-image:url(../imgs/amazonia.jpg);
 }
 
 ul{
@@ -179,7 +179,7 @@ a.links{
 float:right;
 width:50%;
 height:auto;
-background-image:url(imgs/fondo_text.png);
+background-image:url(../imgs/fondo_text.png);
 background-repeat:repeat;
 }
 
