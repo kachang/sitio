@@ -123,9 +123,9 @@ margin-top:12px;
 
 @media (max-width: 1199px){
 #total{
-width:1360px;
-height:768px;
-margin:0 auto 0 auto;
+	width: 1360px;
+	height: 768px;
+	margin: 0 auto 0 auto;
 }
 
 #top{
