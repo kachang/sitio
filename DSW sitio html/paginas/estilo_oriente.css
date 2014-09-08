@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*EFECTO DE GROW PARA EL MENU*/
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/*MEDIA ESCRITORIO*/
+
+@media (min-width: 1200px){
+
+#total{
+width:1360px;
+height:768px;
+margin:0 auto 0 auto;
+}
+
+#top{
+height:5px;
+background-color:#FBB03B;
+}
+
+#logo{
+height:155px;
+}
+
+#eclogo{
+	padding-top:25px;
+	padding-left:100px;
+}
+
+#colorbot{
+height:5px;
+width:auto;
+background-image:url(imgs/colores-bot.png);
+}
+
+#menu{
+height:42px;
+}
+
+#body{
+height:520px;
+background-image:url(imgs/fondo_home.jpg);
+}
+
+ul{
+list-style-type:none;
+padding:0;
+}
+
+li{
+display:inline;
+}
+
+a.links{
+  margin: .4em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #666666;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left:50px;
+}
+
+#textohome{
+float:right;
+width:50%;
+height:auto;
+background-image:url(imgs/fondo_text.png);
+background-repeat:repeat;
+}
+
+#izq{
+float:left;
+width:50%;
+height:auto;
+}
+
+p.clase1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+margin:20px;
+}
+
+#pie{
+height:42px;
+}
+
+#piedepag{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#666666;
+padding:0;
+margin:0;
+margin-top:12px;
+}
+
+}
+
+
+
+
+
+/*MEDIA MOVIL*/
+
+@media (max-width: 1199px){
+#total{
+width:1360px;
+height:768px;
+margin:0 auto 0 auto;
+}
+
+#top{
+height:5px;
+background-color:#FBB03B;
+}
+
+#logo{
+height:155px;
+}
+
+#eclogo{
+	image-size:cover;
+}
+
+#colorbot{
+height:5px;
+width:auto;
+background-image:url(imgs/colores-bot.png);
+}
+
+#menu{
+height:42px;
+}
+
+#body{
+height:520px;
+background-image:url(imgs/fondo_home.jpg);
+}
+
+ul{
+list-style-type:none;
+padding:0;
+}
+
+li{
+display:inline;
+}
+
+a.links{
+  margin: .4em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #666666;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left:50px;
+}
